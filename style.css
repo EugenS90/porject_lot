@@ -1,0 +1,40 @@
+
+
+.input_field{
+    border: none;
+}
+ul li label i{
+    position: absolute;
+    left: 170px;
+}
+.collection{
+    border: none;
+    display: inline;
+} 
+.card-content{
+    width: 100%;
+}
+.card-image{
+   
+   position: inherit; 
+   text-align: center;
+   max-width: 400px;
+   margin: 0px 70px;
+}
+.card-action{
+    text-align: center;
+}
+.form-controls{
+    max-width: 100px;
+    border: 102px solid teal;
+}
+.range-field{
+    max-width: 100px;
+}
+.login-form{
+   text-align: center; 
+}
+#login-page{
+ 
+    margin-bottom: 0px;
+}

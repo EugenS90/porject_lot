@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="mdl-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Project 1</title>
+       <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    
+    <body>
+     
+        <nav class="nav-extended grey lighten-2">
+          <div class="container">
+            <div class="nav-content grey lighten-2">
+              <ul class="tabs tabs-transparent">
+                <li class="tab left"><a href="#test1">USD</a></li>
+                <li class="tab right"><a class="active" href="#test2">Help</a></li>
+                <li class="tab right"><a href="#test3">About Project</a></li>
+                <li class="tab right"><a href="#test4">Language</a></li>
+              </ul>
+            </div>
+            </div>
+          </nav>
+            <nav class="nav-extended teal">
+           <div class="container">
+             
+        <div class="nav-wrapper teal">
+                
+                <div class="navbar-fixed">
+                    <a href="#"><img src="logo.png" width="64" class="left"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down"> 
+                         
+                    <li><a href="sass.html">How it works</a></li>
+                    <li><a href="badges.html">Campaigns</a></li>
+                    <li><a href="collapsible.html">Products</a></li>
+                  </ul>                                        
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+               
+                  <li><a href="badges.html">Components</a></li>
+                  <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+                <form class="right">
+                  <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div> 
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        
+        <section>
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="sur_name" type="text" class="validate">
+                      <label for="disabled">Disabled</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="password" type="password" class="validate">
+                      <label for="password">Password</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      This is an inline input field:
+                      <div class="input-field inline">
+                        <input id="email_inline" type="email" class="validate">
+                        <label for="email_inline">Email</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+        </section>
+        <footer>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+        </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       <script>
+      (function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+
+  }); // end of document ready
+})(jQuery); 
+    </script>
+    </body>
+</html>
